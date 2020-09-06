@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-               git 'https://github.com/kumarrajacse/cicd.git'
+               git 'https://github.com/kumarrajacse/tt.git'
             }
         }
         stage('Build'){
