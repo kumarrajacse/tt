@@ -11,8 +11,8 @@
   tasks:
   - name: cloning the repo
     git:
-      repo: https://github.com/kumarrajacse/cicd.git
-      dest: /home/ubuntu/cicd
+      repo: https://github.com/kumarrajacse/tt.git
+      dest: /home/ubuntu/tt
   - name: executing the kubectl commands
     shell: |
       cd cicd
